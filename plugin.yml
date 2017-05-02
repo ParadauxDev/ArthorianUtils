@@ -1,0 +1,46 @@
+name: ArthorianUtils
+main: pw.paradaux.autils.Main
+version: 2.0.7
+commands:
+    #Commands -- Fully Fledged, Argument Taking Commands
+    arthorian:
+        description: Information Regarding Arthorian.
+        usage: /arthorian <ARG>
+    arthorianadmin:
+        description: Admin Command.
+        usage: /arthorianadmin <ARG>
+        permission: au.admin
+        permission-message: You do not have the necessary permissions to run Administrator Commands via ArthorianUtils. 
+    catalyst: 
+        description: Coming Soon.
+        usage: /catalyst <ARG>
+        permission: au.catalyst
+        permission-message: You do not have the necessary permissions to run Administrator Commands via ArthorianUtils. 
+    staff:
+        description: Coming Soon.
+        usage: /staff <ARG>
+        permission: au.admin
+        permission-message: You do not have the necessary permissions to run Administrator Commands via ArthorianUtils. 
+    #Micro Commands, Static, No Arguments.
+    discord:
+        description: Microcommand
+        usage: /discord
+    website:
+        description: Microcommand
+        usage: /website
+    ip:
+        description: Microcommand
+        usage: /ip
+    owner:
+        description: Microcommand
+        usage: /owner
+    fine:
+        description: Microcommand
+        usage: /fine
+        permission: au.fine
+        permission-message: You do not have the necessary permissions to run Administrator Commands via ArthorianUtils. 
+    paradaux:
+        description: Microcommand
+        usage: /paradaux
+    
+    
